@@ -8,9 +8,12 @@
 /* .container{
     background:linear-gradient(#9b59b6,#3498bd,#D7E1EC);
     padding-bottom: 100%;
+    
 } */
 
+/* 
+background-linear-gradient đây là hiệu ứng chyueern đổi màu nền  */
 body{
-    background:linear-gradient(#9b59b6,#3498bd,#D7E1EC);
+    background:linear-gradient(#9b59b6,#3498bd,#D7E1EC); 
     padding-bottom: 100%;
 }
