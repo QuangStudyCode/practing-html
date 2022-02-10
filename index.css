@@ -1,10 +1,27 @@
+/* cho padding nhiều bcause thêm thanh cuộn */
+html{
+    height: 100%;
+    padding-bottom: 280px;
+}
+body{
+    /* sử dụng thuộc tính background norepet để hình ảnh k bị lặp lại
+    và back..cover để ảnh có thể co theo kích thước của màn hình */
+    background-image: url("/img/background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 
-.header{
+
+
+
+.header {
     text-align: center;
 }
-.content{
+
+.content {
     text-align: center;
 }
+
 /* .container{
     background:linear-gradient(#9b59b6,#3498bd,#D7E1EC);
     padding-bottom: 100%;
@@ -13,7 +30,7 @@
 
 /* 
 background-linear-gradient đây là hiệu ứng chyueern đổi màu nền  */
-body{
-    background:linear-gradient(#9b59b6,#3498bd,#D7E1EC); 
+/* body {
+    background: linear-gradient(#9b59b6, #3498bd, #D7E1EC);
     padding-bottom: 100%;
-}
+} */
