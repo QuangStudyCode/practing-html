@@ -1,18 +1,21 @@
 /* cho padding nhiều bcause thêm thanh cuộn */
-html{
+html {
     height: 100%;
     padding-bottom: 280px;
+    /* sử dụng thuộc tính display flex để cho căn giữa con
+    sử dụng tt align-items để căn chiều cao ,justify-items để căn ngang */
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-body{
+
+body {
     /* sử dụng thuộc tính background norepet để hình ảnh k bị lặp lại
     và back..cover để ảnh có thể co theo kích thước của màn hình */
     background-image: url("/img/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
-
 
 .header {
     text-align: center;
@@ -22,15 +25,82 @@ body{
     text-align: center;
 }
 
-/* .container{
-    background:linear-gradient(#9b59b6,#3498bd,#D7E1EC);
-    padding-bottom: 100%;
-    
-} */
+* {
+    margin: 0;
+    padding: 0;
+}
 
-/* 
-background-linear-gradient đây là hiệu ứng chyueern đổi màu nền  */
-/* body {
-    background: linear-gradient(#9b59b6, #3498bd, #D7E1EC);
-    padding-bottom: 100%;
-} */
+.container{
+    height: 600px;
+    width: 640px;
+    background-color: white;
+    text-align: center;
+    border-radius: 8px;
+    background:linear-gradient(#FF9482,#7D77FF);
+    
+}
+
+.container img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    /* border-style:solid ;
+    border-color: #ffffff;
+    border-width: 5px; */
+    padding: 5px;
+    margin: 48px;
+    background-color: #ffffff;
+    position: relative;
+    cursor: pointer;
+}
+
+.icons {
+    display: grid;
+    margin: 60px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.icons i{
+    font-size: 23px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    /* color: white; 
+    background:linear-gradient(#7D77FF,#FF9482) */
+    color: #7D77FF;
+    background-color: white;
+}
+.icons i:hover{
+    opacity: 0.5;
+}
+.word-1{
+    color: white;
+}
+.word-2{
+    color: white;
+    margin-top: 10px;
+}
+.word-3{
+    color: white;
+}
+.button{
+    margin-top: 30px;
+}
+.button button{
+    padding: 12px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+
+}
+.button button:hover{
+    opacity: 0.5;
+}
+
+.button1{
+    margin-right: 20px;
+}
+..button2{
+    margin-left: 20px;
+}
