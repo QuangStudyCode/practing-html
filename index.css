@@ -52,6 +52,13 @@ body {
     background-color: #ffffff;
     position: relative;
     cursor: pointer;
+    /* thuộc tính chuyển đổi làm cho div biến động nhẹ */
+    transition: 0.5s;
+}
+.container img:hover{
+    /* opacity: 0.5; */
+    /* thuộc tính trainsform biến đổi theo tỉ lệ  */
+    transform: scale(0.9);
 }
 
 .icons {
@@ -70,8 +77,10 @@ body {
     background:linear-gradient(#7D77FF,#FF9482) */
     color: #7D77FF;
     background-color: white;
+    transition: 0.5s;
 }
 .icons i:hover{
+    transform: scale(0.8);
     opacity: 0.5;
 }
 .word-1{
@@ -92,15 +101,17 @@ body {
     border-radius: 8px;
     border: none;
     cursor: pointer;
+    transition: 0.5s;
 
 }
 .button button:hover{
     opacity: 0.5;
+    transform: scale(0.9);
 }
 
 .button1{
     margin-right: 20px;
 }
-..button2{
+.button2{
     margin-left: 20px;
 }
