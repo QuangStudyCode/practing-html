@@ -1,0 +1,129 @@
+body{
+    font-family: "Poppins", sans-serif;
+}
+.mycv{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.4);
+    /* thuộc tính display flex giúp xắp xếp các thành phần trong hộp trở nên linh hoạt  */
+    display: flex;
+    /* điều chỉnh vị trí bắt đầu và căn chỉnh các item bên trong*/
+    align-items: center;
+    /* đây là thuộc  tính giúp căn giữa các thành phần trong flex box*/
+    justify-content: center;
+}
+
+.cv-in-left{
+    /* background:linear-gradient(#80A4CB,#CCE0F3); */
+    background-color: #1F4F59;
+    float: left;
+}
+.cv-in-right{
+    background-color: white;
+    float: right;
+}
+
+/* css left */
+/* css img */
+.cv-in-left img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: white;
+    margin: 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.cv-in-left img:hover{
+    
+    opacity: 0.5;
+    transform: scale(0.9);
+}
+
+.cv-in-left h3{
+    margin-left: 25px;
+    color: white;
+    
+}
+.cv-in-left p{
+    /* margin-left: 25px; */
+    text-align: center;
+    color: white;
+}
+.cv-in-left h3{
+    text-align:left;
+}
+
+hr{
+    margin: 30px;
+    opacity: 0.5;
+}
+li {
+    list-style: none;
+    color: white;
+    cursor: pointer;
+}
+
+.cv-in-left i{
+    margin: 6px;
+    color: #03a9f4;
+    cursor: pointer;
+}
+
+.mid-skill h4{
+    font-size: 15px;
+    color: #03a9f4;
+}
+
+.skill{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+
+/* begin right */
+.cv-in-right{
+    width: 660px;
+    height: 706px;
+}
+.CV-right-close{
+    float: right;
+    margin: 15px;
+
+}
+
+.Cv-right-InFor{
+    margin: 25px;
+}
+.Cv-right-InFor p{
+    display: block;
+    margin-top: 20px;
+    /* thuộc tính word-spasing thiết lập khoảng cách giữa các từ trong câu */
+    word-spacing: 4px
+}
+
+.Cv-right-body{
+    margin: 25px;
+}
+.Cv-right-body p{
+    margin-top: 20px;
+}
+.Cv-right-foter li{
+    color: black;
+    margin: 25px
+}
+
+.Cv-right-foter h2{
+    margin: 25px;
+}
+
+.Cv-right-foter i{
+    color: #03a9f4;
+    padding-right: 5px;
+}

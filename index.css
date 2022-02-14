@@ -142,7 +142,7 @@ body {
     display: none;
 } */
 
-.My-QR i:hover{
+.My-QR i:hover {
     opacity: 0.5;
     transform: scale(0.9);
     cursor: pointer;
@@ -151,5 +151,5 @@ body {
     padding: 100px;
     background-repeat: no-repeat;
     background-position: center bottom;
-    
+
 }
