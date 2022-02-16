@@ -7,12 +7,15 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+        font-family: "Poppins", sans-serif;
+    
 }
 
 body {
     /* sử dụng thuộc tính background norepet để hình ảnh k bị lặp lại
     và back..cover để ảnh có thể co theo kích thước của màn hình */
-    background-image: url("/img/background.jpg");
+    background-image: url("/img/background2.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }

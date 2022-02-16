@@ -1,5 +1,12 @@
-body{
-    font-family: "Poppins", sans-serif;
+
+
+/* content {
+    margin-top: 100px;
+    height: 900px;
+} */
+
+content{
+    background-size: cover;
 }
 .mycv{
     position: fixed;
@@ -9,21 +16,25 @@ body{
     right: 0;
     background-color: rgba(0, 0, 0, 0.4);
     /* thuộc tính display flex giúp xắp xếp các thành phần trong hộp trở nên linh hoạt  */
-    display: flex;
+    display: none;
     /* điều chỉnh vị trí bắt đầu và căn chỉnh các item bên trong*/
     align-items: center;
     /* đây là thuộc  tính giúp căn giữa các thành phần trong flex box*/
     justify-content: center;
+    background-size: cover;
+    /* display: none; */
 }
 
 .cv-in-left{
     /* background:linear-gradient(#80A4CB,#CCE0F3); */
     background-color: #1F4F59;
     float: left;
+
 }
 .cv-in-right{
     background-color: white;
     float: right;
+
 }
 
 /* css left */
@@ -48,6 +59,7 @@ body{
 .cv-in-left h3{
     margin-left: 25px;
     color: white;
+    margin-bottom: 10px;
     
 }
 .cv-in-left p{
@@ -88,13 +100,17 @@ li {
 
 
 /* begin right */
+.CV-right-close i:hover{
+    transition: 0.7;
+    opacity: 0.5;
+}
 .cv-in-right{
     width: 660px;
-    height: 706px;
+    height: 715px;
 }
 .CV-right-close{
     float: right;
-    margin: 15px;
+    margin: 30px;
 
 }
 
